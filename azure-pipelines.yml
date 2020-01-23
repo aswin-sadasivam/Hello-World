@@ -3,6 +3,11 @@
 # Add steps that analyze code, save build artifacts, deploy, and more:
 # https://docs.microsoft.com/azure/devops/pipelines/languages/java
 
+# Set variables once
+variables:
+  configuration: debug
+  platform: x64
+
 trigger:
 - master
 
