@@ -5,7 +5,7 @@
 
 # Set variables once
 variables:
-  configuration: debug
+  configuration: info
   platform: x64
   vmImage: 'ubuntu-latest'
 
