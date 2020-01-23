@@ -10,7 +10,7 @@ variables:
   vmImage: 'ubuntu-latest'
 
 trigger:
-- trigger
+- pr
 
 pool:
   vmImage: $(vmImage)
