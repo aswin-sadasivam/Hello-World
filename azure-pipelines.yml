@@ -16,4 +16,4 @@ pool:
   vmImage: $(vmImage)
 
 steps:
-- script: echo "sadsad" 
+- script: echo "Hello" 
