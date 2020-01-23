@@ -13,7 +13,7 @@ trigger:
 - master
 
 pool:
-  vmImage: ${{variables.vmImage}}
+  vmImage: $(vmImage)
 
 steps:
 - task: Maven@3
