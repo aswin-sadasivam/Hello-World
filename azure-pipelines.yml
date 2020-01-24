@@ -4,10 +4,11 @@
 # https://docs.microsoft.com/azure/devops/pipelines/languages/java
 
 # Set variables once
+
 variables:
   configuration: info
   platform: x64
-  vmImage: 'ubuntu-latest'
+  vmImage: resources.pipeline.aswin-sadasivam.Hello-World.projectName
 
 trigger:
 - master
@@ -16,4 +17,4 @@ pool:
   vmImage: $(vmImage)
 
 steps:
-- script: echo "Abc" 
+- script: echo $(vmImage)
